@@ -14,6 +14,8 @@
         $nome = "Samuel";
         echo $nome, "\n";
         echo 1+1;
+
+        echo "<p>Eu me chamo $nome!</p>"
     ?>
     
 </body>
