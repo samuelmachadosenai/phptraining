@@ -1,2 +1,2 @@
 # phptraining
-where i practice php
+where i practice php and live so merrily
