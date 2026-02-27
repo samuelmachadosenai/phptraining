@@ -8,7 +8,9 @@
 <body>
     <h1>Dados do Servidor</h1>
     <?php   
-        phpinfo();
+        // phpinfo();
+        $nome = "Samuel";
+        echo $nome;
     ?>
     
 </body>
