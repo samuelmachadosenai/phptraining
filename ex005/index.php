@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,7 +13,7 @@
     </header>
     <section>
     <form action="cad.php" method="get">
-        <label for="nome">Nome</label>
+        <label for="numero">Numero</label>
         <input type="text" name="numero" id="numero">
         <input type="submit" value="Enviar">
     </form>

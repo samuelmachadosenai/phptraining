@@ -16,7 +16,9 @@
     <main>
         <?php
             $n = $_GET["numero"];
-            echo "numero: $n<br>";
+            $ant = $n - 1;
+            $suc = $n + 1;
+            echo "numero: $n<br>antecessor: $ant<br>sucessor: $suc";
     
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
