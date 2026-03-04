@@ -15,11 +15,11 @@
 
     <main>
         <?php
-            $nome = $_GET["nome"] ?? "sem nome";
-            $sobrenome = $_GET["sobrenome"] ?? "sem nome";
+            $r = $_GET["reais"];
+            $dol = $r / 5.23;
+            $dol = round($dol, 2);
 
-            echo "Nome: $nome<br>
-            Sobrenome: $sobrenome";
+            echo "Seu dinheiro equivale a $dol dólares";
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>

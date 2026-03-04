@@ -9,19 +9,19 @@
 <body>
 
     <header>
-            <h1>Antecessor e Sucessor
+            <h1>Gerador de Número Aleatório
             </h1>
     </header>
 
     <section>
         <form action="cad.php" method="get">
-            <label for="numero">Numero</label>
-            <input type="text" name="numero" id="numero">
-            <input type="submit" value="Enviar">
+        <label for="min">Mínimo</label>
+        <input type="text" name="min" id="min">
+        <label for="min">Mínimo</label>
+        <input type="text" name="max" id="max">
+        <input type="submit" value="Gerar número">
         </form>
     </section>
     
 </body>
 </html>
-
-

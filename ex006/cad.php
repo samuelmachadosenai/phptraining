@@ -12,14 +12,16 @@
             Resultado
         </h1>
     </header>
-
+    <!-- 5,23 -->
     <main>
         <?php
-            $nome = $_GET["nome"] ?? "sem nome";
-            $sobrenome = $_GET["sobrenome"] ?? "sem nome";
-
-            echo "Nome: $nome<br>
-            Sobrenome: $sobrenome";
+            $min = $_GET["min"];
+            $max = $_GET["max"];
+            
+            $n = rand($min, $max);
+       
+            echo "numero: $n<br>";
+    
         ?>
         <p><a href="javascript:history.go(-1)">Voltar para a página anterior</a></p>
     </main>
