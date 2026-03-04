@@ -13,7 +13,7 @@
         <h1>Formulário</h1>
     </header>
     <section>
-    <form action="cad.php" method="$_GET">
+    <form action="cad.php" method="get">
         <label for="nome">Nome</label>
         <input type="text" name="nome" id="nome">
 
@@ -22,5 +22,10 @@
         <input type="submit" value="Enviar">
     </form>
     </section>
+
+    <?php
+    phpinfo()
+
+    ?>
 </body>
 </html>
