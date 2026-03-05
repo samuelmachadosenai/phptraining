@@ -25,6 +25,7 @@
         $cotacao = $dados["value"][0]["cotacaoCompra"];
 
         $conversao = $r / $cotacao;
+        $conversao = round($conversao, 2);
 
 
         echo "$r reais equivalem a $conversao dólares";
